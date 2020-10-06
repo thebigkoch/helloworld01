@@ -57,5 +57,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
       with:
-        name: Artifact: ${{ matrix.os }}
+        name: artifact_${{ matrix.os }}
         path: ${{ matrix.os }}_out.tar
