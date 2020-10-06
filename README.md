@@ -1,11 +1,14 @@
-# Prerequisites on Windows
+# Introduction
+This is a Hello World project for working with CMake and GitHub Actions.
+
+## Prerequisites on Windows
 This project requires CMake and MinGW:
 
 [CMake](https://cmake.org/download/)
 
 [MinGW](https://osdn.net/projects/mingw/releases/)
 
-# Compiling on Windows
+## Compiling on Windows
 To compile this project on Windows, perform the following steps:
 
 > cmake . -G "MinGW Makefiles" -B build
