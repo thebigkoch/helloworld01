@@ -55,7 +55,7 @@ jobs:
       run: tar -cvf ${{ matrix.os }}_out.tar ${{ github.workspace }}
 
     - name: Upload Artifact
-    - uses: actions/upload-artifact@v2
-        with:
-          name: Artifact: ${{ matrix.os }}
-          path: ${{ matrix.os }}_out.tar
+      uses: actions/upload-artifact@v2
+      with:
+        name: Artifact: ${{ matrix.os }}
+        path: ${{ matrix.os }}_out.tar
