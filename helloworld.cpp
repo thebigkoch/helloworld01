@@ -2,6 +2,8 @@
 #include <vector>
 #include <string>
 
+#include <math_static.h>
+
 using namespace std;
 
 int main()
@@ -16,4 +18,9 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+
+    cout << "8 + 4 = " << thebigkoch::math_static::sum(8, 4) << endl;
+    cout << "8 - 4 = " << thebigkoch::math_static::difference(8, 4) << endl;
+    cout << "8 * 4 = " << thebigkoch::math_static::product(8, 4) << endl;
+    cout << "8 / 4 = " << thebigkoch::math_static::quotient(8, 4) << endl;
 }
