@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-#include <math_static.h>
+#include <math_dynamic.h>
 
 using namespace std;
 
@@ -19,8 +19,8 @@ int main()
     }
     cout << endl;
 
-    cout << "8 + 4 = " << thebigkoch::math_static::sum(8, 4) << endl;
-    cout << "8 - 4 = " << thebigkoch::math_static::difference(8, 4) << endl;
-    cout << "8 * 4 = " << thebigkoch::math_static::product(8, 4) << endl;
-    cout << "8 / 4 = " << thebigkoch::math_static::quotient(8, 4) << endl;
+    cout << "8 + 4 = " << thebigkoch::math_dynamic::sum(8, 4) << endl;
+    cout << "8 - 4 = " << thebigkoch::math_dynamic::difference(8, 4) << endl;
+    cout << "8 * 4 = " << thebigkoch::math_dynamic::product(8, 4) << endl;
+    cout << "8 / 4 = " << thebigkoch::math_dynamic::quotient(8, 4) << endl;
 }
